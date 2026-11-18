@@ -1,13 +1,14 @@
-# BRAB0X PRIME
+# BRAB0X PRIME — Recuperação
 
-Repositório do projeto **BRAB0X PRIME**.
+Este é o novo repositório do projeto BRAB0X PRIME.
 
-## Estado da recuperação
+## Arquivos recuperados
 
-- O código principal **V21.2** ainda não foi recuperado da conta anterior.
-- O arquivo `BRAB0X_VISUAL_V21_3.lua` é apenas um complemento visual. **Não funciona sozinho** e não substitui `BRAB0X_PRIME.lua`.
-- ID de imagem configurado para o complemento: `134556330524125`.
+- [BRAB0X_VISUAL_V21_3.lua](./BRAB0X_VISUAL_V21_3.lua) — complemento visual V21.3, com o ID de imagem Roblox `134556330524125` já configurado. **Não é o script principal**.
+- O arquivo principal `BRAB0X_PRIME.lua` (V21.2, última versão com funcionamento confirmado) ainda **não** foi recuperado: o repositório anterior ficou indisponível depois da suspensão da conta.
 
-## Próximo passo
+## Como funciona
 
-Recuperar a versão principal `BRAB0X_PRIME.lua` de uma cópia de segurança e verificar sua execução antes de adicionar o complemento visual.
+O complemento V21.3 procura a interface `BRAB0X_PRIME_V21_2_0` e deve ser executado **depois** do script principal V21.2. Se executado sozinho, ele não cria o menu. O atlas de imagem precisa ser acessível na experiência.
+
+**Não crie um `BRAB0X_PRIME.lua` fictício nem substitua a V21.2 por um carregador antigo:** isso poderia aparentar uma atualização e perder os comandos. Recuperar o código-fonte principal é a prioridade.
